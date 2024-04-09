@@ -1,0 +1,8 @@
+# Define a set
+my_set = {10, 20, 30, 40, 50}
+# Find maximum and minimum values in the set
+maximum_value = max(my_set)
+minimum_value = min(my_set)
+# Print the results
+print("Maximum value in the set:", maximum_value)
+print("Minimum value in the set:", minimum_value)
