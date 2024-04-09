@@ -1,0 +1,7 @@
+l1 = [100, 320, 47, 45, 19]
+l2 = [1,127, 100,78,98]
+c = []
+for i in l1:
+    if i in l2:
+        c.append(i)
+print("Common elements are:\n",l1,l2,"\nis:", c)
