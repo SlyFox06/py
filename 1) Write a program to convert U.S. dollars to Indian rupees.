@@ -1,0 +1,3 @@
+us_dollar=int(input("Enter Dollar:$\n"))
+rupee=us_dollar *70
+print("The value in Rupee: " , rupee)
