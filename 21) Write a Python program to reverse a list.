@@ -1,0 +1,4 @@
+list1 = [100, 320, 47, 45, 19, 1,127, 100,78,98]
+print ("Before Reverese:”, list1) 
+list1.reverse()
+print ("After Reverese:”, list1)
