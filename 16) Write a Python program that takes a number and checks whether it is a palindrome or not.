@@ -1,0 +1,11 @@
+number = int(input("Enter a number: "))
+temp_number = number
+reversed_number = 0
+while temp_number > 0:
+digit = temp_number % 10
+reversed_number = (reversed_number * 10) + digit
+temp_number //= 10
+if number == reversed_number:
+print(number, "is a palindrome")
+else:
+print(number, "is not a palindrome")
