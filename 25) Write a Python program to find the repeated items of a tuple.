@@ -1,0 +1,6 @@
+a = (1, 2, 3, 4, 2, 5, 6, 2, 7, 8, 9, 2)
+rep = []
+for i in a:
+if a.count(i) > 1 and i not in rep:
+rep.append(i)
+print("Repeated items in the tuple:", rep)
