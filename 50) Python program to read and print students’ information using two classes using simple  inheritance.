@@ -1,0 +1,10 @@
+class Stud:
+def get(self):
+self.name = input("Enter name: ")
+#u can add information this from rs side
+class show(Stud):
+def display(self):
+print("Name:",self.name) 
+obj = show()
+obj.get()
+obj.display() 
