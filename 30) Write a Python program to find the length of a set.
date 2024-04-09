@@ -1,0 +1,6 @@
+# Define a set
+my_set = {10, 20, 30, 40, 50}
+# Find the length of the set
+set_length = len(my_set)
+# Print the result
+print("Length of the set:", set_length)
