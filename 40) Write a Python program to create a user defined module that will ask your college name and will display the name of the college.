@@ -1,0 +1,14 @@
+College.py
+def get_college_name():
+  college_name = input("Enter your college name: ")
+  return college_name
+def display_college_name():
+  name = get_college_name()
+  print("Your college name is:", name)
+if __name__ == "__main__":
+  display_college_name()
+
+
+main.py
+import college
+college.display_college_name()
