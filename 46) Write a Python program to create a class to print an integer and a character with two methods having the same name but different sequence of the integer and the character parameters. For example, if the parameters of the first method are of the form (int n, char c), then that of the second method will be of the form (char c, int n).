@@ -1,0 +1,10 @@
+class Printer:
+def print_int_char(self, n, c):
+  print("Integer:", n)
+  print("Character:", c)
+def print_char_int(self, c, n):
+  print("Character:", c)
+  print("Integer:", n)
+printer = Printer()
+printer.print_int_char(10, 'A')
+printer.print_char_int('B', 20)
