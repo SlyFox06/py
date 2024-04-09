@@ -1,0 +1,5 @@
+n = [60, 35, 61]
+x = 1
+for i in n:
+x *= i
+print("Multiply the list:", x)
