@@ -1,0 +1,10 @@
+# Sample dictionary
+my_dict = {'a': 100, 'b': 200, 'c': 300, 'd': 400, 'e': 500}
+# Sorting the dictionary by values in descending order
+sorted_dict = sorted(my_dict.items(), key=lambda x: x[1], reverse=True)
+# Extracting the highest 3 values
+highest_3_values = sorted_dict[:3]
+# Printing the highest 3 values
+print("Highest 3 values in the dictionary:")
+for key, value in highest_3_values:
+ print(key, ":", value)
