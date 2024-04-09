@@ -1,0 +1,15 @@
+class Stud:
+name = input("ENTER Your Name: ")
+rollno = int(input("Enter rollno: "))
+m1 = int(input("Enter mark1: "))
+m2 = int(input("Enter mark2: "))
+class grade:
+total = Stud.m1 + Stud.m2
+avg = total / 2
+class res(Stud , grade):
+def display(self):
+print("Student name: ",self.name)
+print("Student roll no: ",self.rollno)
+print("Student Percentage: ",self.avg)
+st = res()
+st.display()
